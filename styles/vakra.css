@@ -10,10 +10,12 @@
   background-image: url(../images/background/green_leaves.jpg);
 }
 
-#about {
-  background-image: url(../images/background/sydney_opera_house.jpg);
-}
+@media only screen and (min-width: 41em) {
+  #about {
+    background-image: url(../images/background/sydney_opera_house.jpg);
+  }
 
-#contact {
-  background-image: url(../images/background/guitar_player_silhouette.jpg);
+  #contact {
+    background-image: url(../images/background/guitar_player_silhouette.jpg);
+  }
 }
