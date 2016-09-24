@@ -5,3 +5,7 @@
 .amatic {
   font-family: 'Amatic SC', cursive;
 }
+
+#contact {
+  background-image: url(../images/background/guitar_player_silhouette.jpg);
+}
