@@ -6,6 +6,10 @@
   font-family: 'Amatic SC', cursive;
 }
 
+#events {
+  background-image: url(../images/background/green_leaves.jpg);
+}
+
 #about {
   background-image: url(../images/background/sydney_opera_house.jpg);
 }
