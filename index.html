@@ -33,9 +33,9 @@
   <link rel="icon" href="images/vakra_logo.png" sizes="32x32">
 </head>
 
-<body class="mono">
+<body itemscope itemtype="http://schema.org/MusicGroup" class="mono">
   <header class="bg-black-90 white pv3 ph2 w-100 fixed">
-    <a href="/" class="yellow link f3 tracked dim">våkra</a>
+    <a href="/" itemprop="name" class="yellow link f3 tracked dim">vakra</a>
     <nav class="fr-ns">
       <a href="#events" class="white link f6 fw6 ttu tracked underline-hover">Events</a>
       <a href="#about" class="white link f6 fw6 ttu tracked underline-hover">About</a>
@@ -45,13 +45,15 @@
   </header>
 
   <main>
-    <section id="events" class="bg-yellow black pa4 pa5-ns tc vh-100-ns cover">
+    <section itemprop="event" itemscope itemtype="http://schema.org/Event" id="events" class="bg-yellow black pa4 pa5-ns tc vh-100-ns cover">
       <header class="amatic bg-black-80 white w-40-ns center pa2 pv4-ns mt5">
-        <h1 class="bb f1 f-headline-ns fw1 ttu w-50 ma0 dib">Secret garden</h1>
-        <h2 class="f3 fw2 tracked pa2 mw5 dib">An intimate evening with vakra, on the 26th of November.</h2>
+        <h1 itemprop="name" class="bb f1 f-headline-ns fw1 ttu w-50 ma0 dib">Secret garden</h1>
+        <h2 class="f3 fw2 tracked pa2 mw5 dib">An intimate evening with vakra, on the
+          <span itemprop="startDate" content="2016-11-26">26th of November.</span></h2>
       </header>
 
-      <a href="https://vakra.yapsody.com/event/index/50050/secret-garden" target="_blank" class="bg-yellow black link f4 fw1 ttu grow dib mt3 pv2 ph2 ph3-ns">Buy tickets</a>
+      <a href="https://vakra.yapsody.com/event/index/50050/secret-garden" itemprop="offers"
+      class="bg-yellow black link f4 fw1 ttu grow dib mt3 pv2 ph2 ph3-ns">Buy tickets</a>
     </section>
 
     <section id="about" class="pa4 pa5-ns vh-100-ns cf cover">
@@ -155,7 +157,7 @@
         <p>If you have a passion for performing or making music, whether you sing,
           play an instrument or are just keen to get in touch, we'd love to hear
           from you. We might even invite you to a jam session&hellip;</p>
-        <p>Reach us at <a href="mailto:hi@vakra.band" class="yellow link underline-hover">hi@vakra.band</a>.</p>
+        <p>Reach us at <a href="mailto:hi@vakra.band" itemprop="email" class="yellow link underline-hover">hi@vakra.band</a>.</p>
       </div>
     </section>
   </main>
